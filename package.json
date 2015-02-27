@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "Transform markdown into HTML using markdown",
   "keywords": [
-    "jstransformer"
+    "jstransformer",
+    "markdown"
   ],
   "dependencies": {
     "markdown": "^0.5.0"
@@ -15,6 +16,10 @@
     "type": "git",
     "url": "https://github.com/jstransformers/jstransformer-markdown.git"
   },
+  "files": [
+    "index.js",
+    "LICENSE"
+  ],
   "author": "Hemanth.HM <hemanth.hm@gmail.com>",
   "license": "MIT"
 }
