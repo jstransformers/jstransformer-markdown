@@ -1,6 +1,6 @@
 {
   "name": "jstransformer-markdown",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Transform markdown into HTML using markdown",
   "keywords": [
     "jstransformer",
