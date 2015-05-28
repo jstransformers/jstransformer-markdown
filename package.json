@@ -1,22 +1,24 @@
 {
   "name": "jstransformer-markdown",
-  "version": "1.0.1",
-  "description": "Transform markdown into HTML using markdown",
+  "version": "1.1.0",
+  "description": "Markdown support for JSTransformers.",
   "keywords": [
     "jstransformer",
     "markdown"
+  ],
+  "files": [
+    "index.js"
   ],
   "dependencies": {
     "markdown": "^0.5.0"
   },
   "devDependencies": {
-    "coveralls": "^2.11.2",
-    "istanbul": "^0.3.5"
+    "istanbul": "^0.3.14",
+    "testit": "^2.0.2"
   },
   "scripts": {
     "test": "node test",
-    "coverage": "istanbul cover test",
-    "coveralls": "npm run coverage && cat ./coverage/lcov.info | coveralls"
+    "coverage": "istanbul cover test"
   },
   "repository": {
     "type": "git",

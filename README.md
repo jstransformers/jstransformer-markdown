@@ -11,6 +11,15 @@ Transform markdown into HTML using markdown
 
     npm install jstransformer-markdown
 
+## API
+
+```js
+var foo = require('jstransformer')(require('jstransformer-markdown'))
+
+foo.render('# Hello World!').body
+//=> '<h1>Hello World!</h1>'
+```
+
 ## License
 
-  MIT
+MIT
