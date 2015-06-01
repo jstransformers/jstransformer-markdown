@@ -13,12 +13,11 @@
     "markdown": "^0.5.0"
   },
   "devDependencies": {
-    "istanbul": "^0.3.14",
-    "testit": "^2.0.2"
+    "test-jstransformer": "^1.0.0"
   },
   "scripts": {
-    "test": "node test",
-    "coverage": "istanbul cover test"
+    "test": "test-jstransformer",
+    "coverage": "test-jstransformer coverage"
   },
   "repository": {
     "type": "git",
