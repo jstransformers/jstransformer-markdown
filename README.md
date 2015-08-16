@@ -1,6 +1,6 @@
 # jstransformer-markdown
 
-[Markdown](npm.im/markdown) support for [JSTransformers](http://github.com/jstransformers).
+[Markdown](http://npm.im/markdown) support for [JSTransformers](http://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-markdown/master.svg)](https://travis-ci.org/jstransformers/jstransformer-markdown)
 [![Coverage Status](https://img.shields.io/coveralls/jstransformers/jstransformer-markdown/master.svg)](https://coveralls.io/r/jstransformers/jstransformer-markdown?branch=master)
