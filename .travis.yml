@@ -4,12 +4,13 @@ sudo: false
 node_js:
   - "0.10"
   - "0.12"
-  - "iojs"
+  - "4"
+  - "6"
 
 after_success:
   - npm run coverage
-  - npm i coveralls
-  - cat ./coverage/lcov.info | coveralls
+  - npm i codecov
+  - codecov -f coverage/coverage.json
 
 notifications:
   email:

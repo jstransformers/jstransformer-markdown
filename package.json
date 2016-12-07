@@ -1,4 +1,7 @@
 {
+  "dependencies": {
+    "markdown": "^0.5.0"
+  },
   "name": "jstransformer-markdown",
   "version": "1.1.0",
   "description": "Markdown support for JSTransformers.",
@@ -9,15 +12,15 @@
   "files": [
     "index.js"
   ],
-  "dependencies": {
-    "markdown": "^0.5.0"
-  },
   "devDependencies": {
     "test-jstransformer": "^1.0.0"
   },
   "scripts": {
-    "test": "test-jstransformer",
-    "coverage": "test-jstransformer coverage"
+    "coverage": "test-jstransformer coverage",
+    "test": "test-jstransformer"
+  },
+  "engines": {
+    "node": ">=0.10.36"
   },
   "repository": {
     "type": "git",
