@@ -3,7 +3,7 @@
     "markdown": "^0.5.0"
   },
   "name": "jstransformer-markdown",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Markdown support for JSTransformers.",
   "keywords": [
     "jstransformer",
@@ -14,7 +14,7 @@
   ],
   "devDependencies": {
     "test-jstransformer": "^1.0.0",
-    "xo": "^0.17.1"
+    "xo": "*"
   },
   "scripts": {
     "coverage": "test-jstransformer coverage",
