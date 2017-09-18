@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.2.1: 2017-09-18
+
+- Fix coding styles
+
 ## v1.2.0: 2017-09-18
 
 - Update Boilerplate

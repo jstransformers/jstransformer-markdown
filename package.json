@@ -3,7 +3,7 @@
     "markdown": "^0.5.0"
   },
   "name": "jstransformer-markdown",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Markdown support for JSTransformers.",
   "keywords": [
     "jstransformer",
