@@ -12,7 +12,7 @@ exports.render = function (str, options) {
   if (typeof options === 'string' || options instanceof String) {
     dialect = options
   } else if (typeof options === 'object' && options.dialect) {
-    {dialect} = options
+    dialect = options.dialect // eslint-disable-line prefer-destructuring
   }
 
   return markdown.toHTML(str, dialect)
