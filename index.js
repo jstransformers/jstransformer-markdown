@@ -1,6 +1,6 @@
 'use strict'
 
-const markdown = require('markdown').markdown
+const {markdown} = require('markdown')
 
 exports.name = 'markdown'
 exports.inputFormats = ['md', 'markdown']
@@ -12,7 +12,7 @@ exports.render = function (str, options) {
   if (typeof options === 'string' || options instanceof String) {
     dialect = options
   } else if (typeof options === 'object' && options.dialect) {
-    dialect = options.dialect
+    dialect = options.dialect // eslint-disable-line prefer-destructuring
   }
 
   return markdown.toHTML(str, dialect)
